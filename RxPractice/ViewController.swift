@@ -2,18 +2,11 @@
 //  ViewController.swift
 //  RxPractice
 //
-//  Created by 권우석 on 2/18/25.
+//  Created by 권우석 on 2/19/25.
 //
-
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
+    var disposeBag = DisposeBag()
 }
-
