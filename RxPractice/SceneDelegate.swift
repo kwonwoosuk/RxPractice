@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         window = UIWindow(windowScene: scene)
-        window?.rootViewController =  UINavigationController(rootViewController: BirthDayViewController())
+        window?.rootViewController =  UINavigationController(rootViewController: HomeworkViewController())
         window?.makeKeyAndVisible()
     }
 
